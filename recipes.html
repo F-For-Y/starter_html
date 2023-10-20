@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Recipes</title>
 </head>
 <body>
-    <a href="#main-content">Skip to Main Content</a>x
+    <div class="skip"><a href="#main-content">Skip to Main Content</a></div>
     <header>
         <nav>
             <ul>
-                <li class="active"><a href = "">Skip to Main Content</a></li>
                 <li><a href = "index.html">Pets</a></li>
-                <li><a href = "recipes.html">recipes</a></li>
-                <li><a href = "travel.html">travel</a></li>
+                <li><a class='active' href = "recipes.html">Recipes</a></li>
+                <li><a href = "travel.html">Travel</a></li>
             </ul>
         </nav>
         <h1>Recipes</h1>
@@ -28,10 +29,11 @@
         <span>Source: Family Recipe</span>
         <span>Category: Dessert</span>
 
-        <img src="images/Recipe/chocolate_cookie/double_chocolate_cookies.png" width = "400" alt="double_chocolate_cookies">
+        <img src="images/Recipe/chocolate_cookie/double_chocolate_cookies.png"  alt="double_chocolate_cookies">
         <p>My daughter learned to make these cookies at a baking camp at Zingermanns and has tweaked the recipe to fit the taste buds of her siblings.  They are extremely sugary so the salt helps to balance it.  Note, these cookies are best eaten very quickly.</p>
         <h3>Recipe Ingredients</h3>
-        <ul>
+
+        <ul class="grid-container">
             <li>Unsalted butter</li>
             <li>Granulated Sugar</li>
             <li>Packed light or dark brown sugar</li>
@@ -46,7 +48,7 @@
         </ul>
 
         <h3>Recipe Steps</h3> 
-        <ol>
+        <ol class="grid-container">
             <li>In a mixing bowl cream together the butter, granulated sugar, and brown sugar</li>
             <li>Add the egg and vanilla extract and beat well</li>
             <li>Add the melted chocolate</li>
@@ -58,10 +60,11 @@
         </ol>
 
         <h3>Additional Food images</h3>
-        <img src="images/Recipe/chocolate_cookie/double_chocolate_chips.png" width = "200" alt="A small pile of chocolate chips">
-        <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-d9ba778.jpg?quality=90&webp=true&resize=600,545" width = "200" alt="Chocolate melting in a boiler">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Brown_sugar_examples.JPG" width = "200" alt="Brown sugar in three different shades of darkness">
-
+        <div class="grid-container">
+            <img src="images/Recipe/chocolate_cookie/double_chocolate_chips.png" alt="A small pile of chocolate chips">
+            <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-d9ba778.jpg?quality=90&webp=true&resize=600,545"  alt="Chocolate melting in a boiler">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Brown_sugar_examples.JPG" alt="Brown sugar in three different shades of darkness">
+        </div>
         <!-- Colleen van Lent -->
 
     </div>
@@ -72,11 +75,11 @@
         <span>Source: Traditional food</span>
         <span>Category: Main Dish</span>
 
-        <img src="images/Recipe/Jiaozi/jiaozi.jpeg" width = "400" alt="jiaozi">
+        <img src="images/Recipe/Jiaozi/jiaozi.jpeg"  alt="jiaozi">
         <p>Chinese dumplings (Jiaozi, 饺子) are stuffed parcels made of unleavened dough and savory fillings consisting of minced ingredients like meat, egg, tofu, or vegetables. They can be boiled, pan-fried or steamed.
         </p>
         <h3>Recipe Ingredients</h3>
-        <ul>
+        <ul class="grid-container">
             <li>flour</li>
             <li>wate</li>
             <li>Pork</li>
@@ -84,7 +87,7 @@
         </ul>
 
         <h3>Recipe Steps</h3> 
-        <ol>
+        <ol class="grid-container">
             <li>Make dough</li>
             <li>Filling adequate water</li>
             <li>Folding a sheet of dough</li>
@@ -94,10 +97,11 @@
         </ol>
 
         <h3>Additional Food images</h3>
-        <img src="images/Recipe/Jiaozi//jiaozi2.jpeg" width = "200" alt="a table of jiaozi">
-        <img src="images/Recipe/Jiaozi//jiaozi3.jpeg" width = "200" alt="uncooked jiaozi">
-        <img src="images/Recipe/Jiaozi//jiaozi4.jpeg" width = "200" alt="make wrappers of jiaozi">
-
+        <div class="grid-container">
+            <img src="images/Recipe/Jiaozi//jiaozi2.jpeg"  alt="a table of jiaozi">
+            <img src="images/Recipe/Jiaozi//jiaozi3.jpeg"  alt="uncooked jiaozi">
+            <img src="images/Recipe/Jiaozi//jiaozi4.jpeg"  alt="make wrappers of jiaozi">
+        </div>
         <!-- Colleen van Lent -->
     </div>
         
@@ -107,11 +111,11 @@
         <span>Source: Family Recipe</span>
         <span>Category: Main Dish</span>
 
-        <img src="images/Recipe/coke_chicken/coca_cola_chicken_wings.jpg" width = "400" alt="coca_cola_chicken_wings">
+        <img src="images/Recipe/coke_chicken/coca_cola_chicken_wings.jpg"  alt="coca_cola_chicken_wings">
         <p>I learnt how to cook Coca-Cola chicken wings from my mother, and I've since tweaked her recipe to better suit my family's palate, making it less sweet. While the cooking process remains straightforward, the result is incredibly flavorful, and once you've tried it, you'll understand its delicious appeal!
         </p>
         <h3>Recipe Ingredients</h3>
-        <ul>
+        <ul class="grid-container">
             <li>Chicken wings</li>
             <li>Scallions</li>
             <li>Ginger slices</li>
@@ -121,7 +125,7 @@
         </ul>
 
         <h3>Recipe Steps</h3> 
-        <ol>
+        <ol class="grid-container">
             <li>Wash and place chicken wings in a bowl.</li>
             <li>Add scallions, ginger slices, cooking wine, dark soy sauce and salt to the washed chicken wings, and mix them well.</li>
             <li>Cover the bowl with plastic wrap and marinate the chicken wings for 1 hour.</li>
@@ -132,17 +136,17 @@
         </ol>
 
         <h3>Additional Food images</h3>
-        <img src="images/Recipe/coke_chicken/chicken-wings_and_rice_cake.jpg" width = "200" alt="chicken-wings_and_rice_cake">
-        <img src="images/Recipe/coke_chicken/chicken_wings_chopsticks.jpg" width = "200" alt="chicken_wings_chopsticks">
-        <img src="images/Recipe/coke_chicken/boils_in_coke.jpg" width = "200" alt="boils_in_coke">
-
+        <div class="grid-container">
+            <img src="images/Recipe/coke_chicken/chicken-wings_and_rice_cake.jpg"  alt="chicken-wings_and_rice_cake">
+            <img src="images/Recipe/coke_chicken/chicken_wings_chopsticks.jpg"  alt="chicken_wings_chopsticks">
+            <img src="images/Recipe/coke_chicken/boils_in_coke.jpg"  alt="boils_in_coke">
+        </div>
         <!-- Colleen van Lent -->
     </div>
     
     </main>
 
     <footer>
-	    <p></p>
     </footer>
 </body>
 </html>
