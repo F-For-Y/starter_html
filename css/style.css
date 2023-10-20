@@ -162,9 +162,3 @@ nav a.active{
     top: 90px;
     text-decoration: underline;
 }
-
-@media (prefers-reduced-motion: reduce) {
-    html {
-      scroll-behavior: auto;
-    }
-}
